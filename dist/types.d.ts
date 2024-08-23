@@ -34,12 +34,12 @@ export declare enum SubjectTypes {
     Roblox = 0,
     Discord = 1
 }
-export interface AccountsRoblox {
+export interface RobloxAccount {
     id: bigint;
     linkedAt: Date;
 }
-export interface Accounts {
+export interface Account {
     discord: bigint;
-    roblox: AccountsRoblox[];
+    roblox: RobloxAccount[];
     createdAt: Date;
 }
