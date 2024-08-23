@@ -1,1 +1,1 @@
-export * as NexusTypes from "./declarations.js";
+export * as NexusTypes from "./nexus.js";
