@@ -27,6 +27,8 @@ export const Errors = {
     15: new APIError(409, [15, "Roblox account linked limit reached"]),
     16: new APIError(409, [16, "Roblox account already linked"]),
     17: new APIError(413, [17, "Too many accounts queried"]),
+    18: new APIError(400, [18, "Invalid session"]),
+    19: new APIError(404, [19, "Session not found"]),
 };
 export var SubjectTypes;
 (function (SubjectTypes) {

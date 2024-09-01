@@ -23,6 +23,8 @@ export declare const Errors: {
     15: APIError;
     16: APIError;
     17: APIError;
+    18: APIError;
+    19: APIError;
 };
 export declare enum SubjectTypes {
     Roblox = 0,
