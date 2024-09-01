@@ -24,12 +24,6 @@ export declare const Errors: {
     16: APIError;
     17: APIError;
 };
-export interface StatePayload {
-    type: SubjectTypes;
-    sub: bigint;
-    exp: Date;
-    vf: string;
-}
 export declare enum SubjectTypes {
     Roblox = 0,
     Discord = 1
