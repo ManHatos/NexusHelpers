@@ -52,6 +52,8 @@ export declare const Errors: {
     19: APIError;
     /** Access expired */
     20: APIError;
+    /** Subject not found */
+    21: APIError;
 };
 /** state payload types */
 export declare enum SubjectTypes {

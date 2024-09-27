@@ -56,6 +56,8 @@ export const Errors = {
     19: new APIError(404, [19, "Session not found"]),
     /** Access expired */
     20: new APIError(403, [20, "Access expired"]),
+    /** Subject not found */
+    21: new APIError(404, [21, "Subject not found"])
 };
 /** state payload types */
 export var SubjectTypes;
