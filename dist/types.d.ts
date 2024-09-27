@@ -50,6 +50,8 @@ export declare const Errors: {
     18: APIError;
     /** Session not found */
     19: APIError;
+    /** Access expired */
+    20: APIError;
 };
 /** state payload types */
 export declare enum SubjectTypes {
